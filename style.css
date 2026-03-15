@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap');
+
+*{
+    padding:0;
+    margin:0;
+    font-family:'Martel Sans',sans-serif;
+}
+
+.main{
+    background-image:url("https://cdn.mos.cms.futurecdn.net/rDJegQJaCyGaYysj2g5XWY-1280-80.jpg.webp");
+    height:80vh;
+    position:relative;
+    background-position:center center;
+    background-repeat: no-repeat;
+    background-size:max(1200px,100vw);
+}
+.main .box{
+    height:80vh;
+    width:100%;
+    opacity:0.4;
+    background-color:black;
+    text-align: center;
+    position:relative;
+    top:0;
+
+}
+nav{
+    max-width:40vw;
+    justify-content:space-between;
+    margin:auto;
+    display:flex;
+    align-items:center;
+    height:60px;
+
+}
+nav img{
+    color:red;
+    width:114px;
+    position:relative;
+    z-index: inde 10;
+
+}
+ nav button{
+    z-index:inde10;
+ }
+
+ .main.box.hero{
+    font-family:'Martel Sans',sans-serif;
+    height: 100%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction: column;
+    color:white;
+    position:relative;
+
+ }
+.hero:first-child{
+    font-weight:900;
+    font-size:48px;
+ }
+ 
